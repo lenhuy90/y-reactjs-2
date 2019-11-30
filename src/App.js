@@ -5,13 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Ý nè
-        </p>
-        <p>hello world</p>
-      </header>
+      <div class="product">
+        <img src="https://noithatdailoi.com/wp-content/uploads/ghe-eames-3-5.jpg" class="hinh" alt=""/>
+          <h5>FUNITUNE</h5>
+          <p>Ghế tình yêu</p>
+          <span>119.000 USD</span>  <span >230.000 USD</span> 
+
+      </div>
     </div>
   );
 }
