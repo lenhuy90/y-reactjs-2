@@ -1,17 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {ProductImage,ProductInfo} from "./Item"
 
 function App() {
   return (
     <div className="App">
-      <div class="product">
-        <img src="https://noithatdailoi.com/wp-content/uploads/ghe-eames-3-5.jpg" class="hinh" alt=""/>
-          <h5>FUNITUNE</h5>
-          <p>Ghế tình yêu</p>
-          <span>119.000 USD</span>  <span >230.000 USD</span> 
-
-      </div>
+      <ProductImage src="https://noithatdailoi.com/wp-content/uploads/ghe-eames-3-5.jpg" saleText="SALE"></ProductImage>
+      <ProductInfo type="FUNITURE" name="Mini Ghế Làm Việc" finalPrice="112.000 USD" price="200.000usd"></ProductInfo>
     </div>
   );
 }
